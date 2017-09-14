@@ -1,11 +1,8 @@
 language: python
 
-python: 3.5
+python: 3.6
 env:
-  - TOXENV=py27
-  - TOXENV=py33
-  - TOXENV=py34
-  - TOXENV=py35
+  - TOXENV=py36
 
 install:
   - pip install -U tox
@@ -16,10 +13,10 @@ script:
 deploy:
   provider: pypi
   distributions: sdist
-  user: audreyr
+  user: harrisont
   password:
     secure: PLEASE_REPLACE_ME
   on:
     tags: true
-    repo: audreyr/python_boilerplate
-    condition: $TOXENV == py27
+    repo: harrisont/python_boilerplate
+    condition: $TOXENV == py36
