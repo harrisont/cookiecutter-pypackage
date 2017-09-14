@@ -2,9 +2,14 @@
 Cookiecutter PyPackage
 ======================
 
-.. image:: https://pyup.io/repos/github/audreyr/cookiecutter-pypackage/shield.svg
-     :target: https://pyup.io/repos/github/audreyr/cookiecutter-pypackage/
+.. image:: https://pyup.io/repos/github/harrisont/cookiecutter-pypackage/shield.svg
+     :target: https://pyup.io/repos/github/harrisont/cookiecutter-pypackage/
      :alt: Updates
+
+This was forked from: https://github.com/audreyr/cookiecutter-pypackage. Here are the differences of this forked version:
+
+* TODO
+* TODO
 
 Cookiecutter_ template for a Python package.
 
@@ -30,14 +35,14 @@ Build Status
 
 Linux:
 
-.. image:: https://img.shields.io/travis/audreyr/cookiecutter-pypackage.svg
-    :target: https://travis-ci.org/audreyr/cookiecutter-pypackage
+.. image:: https://img.shields.io/travis/harrisont/cookiecutter-pypackage.svg
+    :target: https://travis-ci.org/harrisont/cookiecutter-pypackage
     :alt: Linux build status on Travis CI
 
 Windows:
 
-.. image:: https://ci.appveyor.com/api/projects/status/github/audreyr/cookiecutter-pypackage?branch=master&svg=true
-    :target: https://ci.appveyor.com/project/audreyr/cookiecutter-pypackage/branch/master
+.. image:: https://ci.appveyor.com/api/projects/status/github/harrisont/cookiecutter-pypackage?branch=master&svg=true
+    :target: https://ci.appveyor.com/project/harrisont/cookiecutter-pypackage/branch/master
     :alt: Windows build status on Appveyor
 
 Quickstart
