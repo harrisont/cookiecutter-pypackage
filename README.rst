@@ -13,7 +13,7 @@ This was forked from: https://github.com/audreyr/cookiecutter-pypackage. Here ar
 
 Cookiecutter_ template for a Python package.
 
-* GitHub repo: https://github.com/audreyr/cookiecutter-pypackage/
+* GitHub repo: https://github.com/harrisont/cookiecutter-pypackage/
 * Documentation: https://cookiecutter-pypackage.readthedocs.io/
 * Free software: BSD license
 
@@ -22,7 +22,7 @@ Features
 
 * Testing setup with ``unittest`` and ``python setup.py test`` or ``py.test``
 * Travis-CI_: Ready for Travis Continuous Integration testing
-* Tox_ testing: Setup to easily test for Python 2.6, 2.7, 3.3, 3.4, 3.5
+* Tox_ testing: Setup to easily test for Python 3.6+
 * Sphinx_ docs: Documentation ready for generation with, for example, ReadTheDocs_
 * Bumpversion_: Pre-configured version bumping with a single command
 * Auto-release to PyPI_ when you push a new tag to master (optional)
@@ -51,11 +51,11 @@ Quickstart
 Install the latest Cookiecutter if you haven't installed it yet (this requires
 Cookiecutter 1.4.0 or higher)::
 
-    pip install -U cookiecutter
+    pip install --upgrade cookiecutter
 
 Generate a Python package project::
 
-    cookiecutter https://github.com/audreyr/cookiecutter-pypackage.git
+    cookiecutter https://github.com/harrisont/cookiecutter-pypackage.git
 
 Then:
 
@@ -128,6 +128,6 @@ make my own packaging experience better.
 .. _`Nekroze/cookiecutter-pypackage`: https://github.com/Nekroze/cookiecutter-pypackage
 .. _`tony/cookiecutter-pypackage-pythonic`: https://github.com/tony/cookiecutter-pypackage-pythonic
 .. _`ardydedase/cookiecutter-pypackage`: https://github.com/ardydedase/cookiecutter-pypackage
-.. _github comparison view: https://github.com/tony/cookiecutter-pypackage-pythonic/compare/audreyr:master...master
-.. _`network`: https://github.com/audreyr/cookiecutter-pypackage/network
-.. _`family tree`: https://github.com/audreyr/cookiecutter-pypackage/network/members
+.. _github comparison view: https://github.com/tony/cookiecutter-pypackage-pythonic/compare/harrisont:master...master
+.. _`network`: https://github.com/harrisont/cookiecutter-pypackage/network
+.. _`family tree`: https://github.com/harrisont/cookiecutter-pypackage/network/members
